@@ -1,0 +1,6 @@
+framework module GlComponentBasic {
+  umbrella header "GlComponentBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}

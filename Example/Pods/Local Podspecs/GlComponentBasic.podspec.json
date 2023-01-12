@@ -1,0 +1,70 @@
+{
+  "name": "GlComponentBasic",
+  "version": "0.1.0",
+  "summary": "基础库（UI、工具等）",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lyc/GlComponentBasic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lyc": "geeklyc@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lyc/GlComponentBasic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "GlComponentBasic/Classes/Category/**/*"
+    },
+    {
+      "name": "Mediator",
+      "source_files": "GlComponentBasic/Classes/Mediator/**/*"
+    },
+    {
+      "name": "WebView",
+      "source_files": "GlComponentBasic/Classes/WebView/**/*"
+    },
+    {
+      "name": "JSBridge",
+      "dependencies": {
+        "WebViewJavascriptBridge": [
+          "~> 6.0"
+        ]
+      }
+    },
+    {
+      "name": "NativeCall",
+      "source_files": "GlComponentBasic/Classes/NativeCall/**/*",
+      "dependencies": {
+        "MJExtension": [
+          "~> 3.2.2"
+        ]
+      }
+    },
+    {
+      "name": "CrashAnalytics",
+      "source_files": "GlComponentBasic/Classes/CrashAnalytics/**/*",
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ]
+      }
+    },
+    {
+      "name": "Log",
+      "source_files": "GlComponentBasic/Classes/Log/**/*",
+      "dependencies": {
+        "CocoaLumberjack": [
+          "~> 3.7.2"
+        ]
+      }
+    }
+  ]
+}

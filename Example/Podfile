@@ -1,10 +1,22 @@
-use_frameworks!
+# use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '9.0'
+
+def gl_category
+  pod 'GlComponentBasic/Category', :path => '../'
+end
 
 target 'GlComponentBasic_Example' do
   pod 'GlComponentBasic', :path => '../'
-
+  pod 'GlComponentBasic/Category', :path => '../'
+  pod 'GlComponentBasic/Mediator', :path => '../'
+  pod 'GlComponentBasic/WebView', :path => '../'
+  pod 'GlComponentBasic/JSBridge', :path => '../'
+  pod 'GlComponentBasic/NativeCall', :path => '../'
+  pod 'GlComponentBasic/CrashAnalytics', :path => '../'
+  pod 'GlComponentBasic/Log', :path => '../'
+  
   target 'GlComponentBasic_Tests' do
     inherit! :search_paths
 

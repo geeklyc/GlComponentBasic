@@ -1,0 +1,58 @@
+PODS:
+  - CocoaLumberjack (3.7.2):
+    - CocoaLumberjack/Core (= 3.7.2)
+  - CocoaLumberjack/Core (3.7.2)
+  - GlComponentBasic (0.1.0):
+    - GlComponentBasic/Category (= 0.1.0)
+    - GlComponentBasic/CrashAnalytics (= 0.1.0)
+    - GlComponentBasic/JSBridge (= 0.1.0)
+    - GlComponentBasic/Log (= 0.1.0)
+    - GlComponentBasic/Mediator (= 0.1.0)
+    - GlComponentBasic/NativeCall (= 0.1.0)
+    - GlComponentBasic/WebView (= 0.1.0)
+  - GlComponentBasic/Category (0.1.0)
+  - GlComponentBasic/CrashAnalytics (0.1.0):
+    - Masonry (~> 1.1.0)
+  - GlComponentBasic/JSBridge (0.1.0):
+    - WebViewJavascriptBridge (~> 6.0)
+  - GlComponentBasic/Log (0.1.0):
+    - CocoaLumberjack (~> 3.7.2)
+  - GlComponentBasic/Mediator (0.1.0)
+  - GlComponentBasic/NativeCall (0.1.0):
+    - MJExtension (~> 3.2.2)
+  - GlComponentBasic/WebView (0.1.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.4)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - GlComponentBasic (from `../`)
+  - GlComponentBasic/Category (from `../`)
+  - GlComponentBasic/CrashAnalytics (from `../`)
+  - GlComponentBasic/JSBridge (from `../`)
+  - GlComponentBasic/Log (from `../`)
+  - GlComponentBasic/Mediator (from `../`)
+  - GlComponentBasic/NativeCall (from `../`)
+  - GlComponentBasic/WebView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaLumberjack
+    - Masonry
+    - MJExtension
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  GlComponentBasic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  GlComponentBasic: 9c90b103caf152cb65c780fe2e03748dfccf1b95
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: f8dce3e7c8ea82ddbcd652d8496b1790af5f008d
+
+COCOAPODS: 1.9.3

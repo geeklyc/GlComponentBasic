@@ -1,0 +1,1 @@
+../../../../../GlComponentBasic/Classes/CrashAnalytics/GlCrashAnalyticsExceptionResponderProtocol.h
