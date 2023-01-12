@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GlComponentBasic'
+  s.name             = 'GLLog'
   s.version          = '0.1.0'
-  s.summary          = '基础库（UI、工具等）'
+  s.summary          = '日志'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,46 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  # 类别
-  s.subspec 'Category' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/Category/**/*'
-  end
-  
-  # Mediator
-  s.subspec 'Mediator' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/Mediator/**/*'
-  end
-  
-  # WebView
-  s.subspec 'WebView' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/WebView/**/*'
-  end
-  
-  # JSBridge
-  s.subspec 'JSBridge' do |ss|
-    ss.dependency 'WebViewJavascriptBridge', '~> 6.0'
-  end
-  
-  # NativeCall
-  s.subspec 'NativeCall' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/NativeCall/**/*'
-    ss.dependency 'MJExtension', '~> 3.2.2'
-  end
-  
-  # 奔溃
-  s.subspec 'CrashAnalytics' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/CrashAnalytics/**/*'
-    ss.dependency 'Masonry', '~> 1.1.0'
-  end
-  
-  # Log
-  s.subspec 'Log' do |ss|
-    ss.source_files = 'GlComponentBasic/Classes/Log/**/*'
-    ss.dependency 'CocoaLumberjack', '~> 3.7.2'
-  end
-
-#  s.source_files = 'GlComponentBasic/Classes/**/*'
+  s.source_files = 'GLLog/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GlComponentBasic' => ['GlComponentBasic/Assets/*.png']
