@@ -1,0 +1,21 @@
+PODS:
+  - GLLog (0.1.0)
+  - GLNetwork (0.1.0)
+
+DEPENDENCIES:
+  - GLLog (from `./../GLLog`)
+  - GLNetwork (from `./../GLNetwork`)
+
+EXTERNAL SOURCES:
+  GLLog:
+    :path: "./../GLLog"
+  GLNetwork:
+    :path: "./../GLNetwork"
+
+SPEC CHECKSUMS:
+  GLLog: 789ea68f504e449e3a3c2debc4e625e96427accf
+  GLNetwork: 4802c68131da7e28d88d76aeb1c2c82072ff3e04
+
+PODFILE CHECKSUM: 36161d85efdbbfbc9d26339d3f191c8460ad7b8f
+
+COCOAPODS: 1.9.3

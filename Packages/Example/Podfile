@@ -1,0 +1,20 @@
+# use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+target 'Example' do
+  
+  pod 'GLNetwork', :path => './../GLNetwork'
+  pod 'GLLog', :path => './../GLLog'
+
+  target 'ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ExampleUITests' do
+    # Pods for testing
+  end
+
+end

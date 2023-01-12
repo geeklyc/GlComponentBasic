@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GlCrashAnalyticsDependencyFactory : NSObject
 
++ (void)createExceptionHandler;
+
 @end
 
 NS_ASSUME_NONNULL_END

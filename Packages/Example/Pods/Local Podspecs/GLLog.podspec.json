@@ -1,0 +1,22 @@
+{
+  "name": "GLLog",
+  "version": "0.1.0",
+  "summary": "日志",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lyc/GlComponentBasic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lyc": "geeklyc@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lyc/GlComponentBasic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GLLog/Classes/**/*"
+}
