@@ -7,43 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26AF9A9079B8C5D8D926B95555E63EA3 /* GLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E41C4648ABEFA97488CD14B89F601D /* GLNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2DED30222DE84B88B7FFB8F585A2F18A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FAD8E1C196E03C026D0F5B1D495C5F /* Pods-Example-dummy.m */; };
 		5B526452737994E40988145DB99823BD /* Pods-Example-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486B0A23AB884CE15678866A2A47A56 /* Pods-Example-ExampleUITests-dummy.m */; };
-		856A5A5CD1EFE25D2D2999F15C842D6D /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */; };
-		9A550E22B81C2C74D0A611D59FCA31BD /* GLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BAA78D68F6F0DA1408636103F5021819 /* GLNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */; };
-		BBA9D45E8E20999C030C40E6FEF9329C /* GLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */; };
+		BAA78D68F6F0DA1408636103F5021819 /* GLNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA74BB12EAD9E163B4954E16240579C /* GLNetwork-dummy.m */; };
+		C596F5160B9D137B461ABE4DA663D9C8 /* GLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B60BFD35FCA0C860C484F958A060A23A /* GLNetwork.m */; };
 		CC3F5F9FDE572B0FE65FBAC26EE6882B /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC262C709DA2F790EC9D1D5963E5A2 /* Pods-ExampleTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		398DA5414DF9765816AFDE2F283D199A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 944CE2D0E3B720C751A3926B36E9D998;
-			remoteInfo = "GLNetwork-GLNetwork";
-		};
-		47780135021ED2684959FD31A4B6B3B8 /* PBXContainerItemProxy */ = {
+		6182C38D1789FC363AD85C552052B30D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
 			remoteInfo = "Pods-Example";
 		};
-		C22985028C48EE43B62184BCCADB83AA /* PBXContainerItemProxy */ = {
+		6FD76C8C8D69F0D101D1ED66677C5D24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
 			remoteInfo = GLNetwork;
 		};
-		D4FBA4ED82015F5C49A1E0DCD39D9592 /* PBXContainerItemProxy */ = {
+		798D4DD81D0BBDFA4B2A11929F3802E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
 			remoteInfo = GLNetwork;
+		};
+		9407259925538BFE35868234070959F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944CE2D0E3B720C751A3926B36E9D998;
+			remoteInfo = "GLNetwork-GLNetwork";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,39 +50,37 @@
 		07FAB73EFA5F1A08E6EF1E45520A6DDB /* Pods-Example-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		08309553DB8A03B0D071C6A19AC6326D /* libGLNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLNetwork.a; path = libGLNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0A4167A88FD2DF5F14417B25F2EB69 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		271E87021CE9DA25FC2E2071A5E994C5 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		3486B0A23AB884CE15678866A2A47A56 /* Pods-Example-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLNetwork.m; path = GLNetwork/Classes/GLNetwork.m; sourceTree = "<group>"; };
+		379EFC441661DD10D8E14EEDF75D39ED /* GLNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLNetwork-prefix.pch"; sourceTree = "<group>"; };
 		43BBA3594545F64AF66CD80CF59F8DCD /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F4D635E1692E0E0761C9DA8FE1C66E /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GLNetwork-GLNetwork-Info.plist"; sourceTree = "<group>"; };
+		47E41C4648ABEFA97488CD14B89F601D /* GLNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLNetwork.h; path = Packages/GLNetwork/GLNetwork/Classes/GLNetwork.h; sourceTree = "<group>"; };
 		4FAC262C709DA2F790EC9D1D5963E5A2 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		561E9E2B0E9D739B5A5518A44D145A32 /* GLNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.release.xcconfig; sourceTree = "<group>"; };
+		5B0B969156F1B799B73C2577EC9EEEFC /* GLNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		5EC7BFD185FAAA85EC10F17D069F8C7C /* Pods-Example-ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-ExampleUITests-resources.sh"; sourceTree = "<group>"; };
 		630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleTests.a"; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; name = 2.jpeg; path = GLNetwork/Assets/2.jpeg; sourceTree = "<group>"; };
 		7DC519AFB66572D1227752142FEAD43C /* Pods-Example-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLNetwork.h; path = GLNetwork/Classes/GLNetwork.h; sourceTree = "<group>"; };
 		8B624F8232B6159CD2ED40FE46564A22 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8C4701045839BCD96EE834456481F821 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90348FB108692BD4FA760B59DD0AE9DF /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		90B3B15832E6B18D5FD3E9284217DFEC /* Pods-Example-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9374B3D33B69078E62BEF784ADFDD674 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		9B8F7E6741AF98B6C0E00E566EE2BE63 /* GLNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BA74BB12EAD9E163B4954E16240579C /* GLNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLNetwork-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F46FB1D2050C5AD987D8410CA89E9C2 /* GLNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLNetwork-prefix.pch"; sourceTree = "<group>"; };
 		AAF60E07E3C4110F0558753DE446BA7F /* Pods-Example-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BAA2A53403A13986424BF9AF87C0FADC /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GLNetwork-GLNetwork-Info.plist"; sourceTree = "<group>"; };
+		B60BFD35FCA0C860C484F958A060A23A /* GLNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLNetwork.m; path = Packages/GLNetwork/GLNetwork/Classes/GLNetwork.m; sourceTree = "<group>"; };
 		C4FAD8E1C196E03C026D0F5B1D495C5F /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		C792D5C1002166C85E4D49F2D051347C /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLNetwork-dummy.m"; sourceTree = "<group>"; };
-		CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.release.xcconfig; sourceTree = "<group>"; };
 		D2D130E75C52519A0996444FDE26C0BD /* GLNetwork.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GLNetwork.bundle; path = "GLNetwork-GLNetwork.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D602AE088C77FA17EBDB61C571D61CF4 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		E8E5A2DDEE01CA7716145CA1B033B7A3 /* libPods-Example-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example-ExampleUITests.a"; path = "libPods-Example-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		186EB5B999F50FF211A72424C9979414 /* Frameworks */ = {
+		0F47C154C3D8555D514D4DAF3B98C517 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,12 +128,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		44657CA279595E85BC723B0963C0EB22 /* Resources */ = {
+		4D2BC3EA3F207D56281F999A7569E555 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */,
+				A951B727E3DEDE670D3D0A281B6625FB /* GLNetwork */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5A8A1E3F3C49EE63DC0B6BFD59283D44 /* Pods-Example-ExampleUITests */ = {
@@ -153,17 +150,17 @@
 			path = "Target Support Files/Pods-Example-ExampleUITests";
 			sourceTree = "<group>";
 		};
-		65BC1453C130D4438141670C8F3784BF /* GLNetwork */ = {
+		976A1131564E8C586A616DA0ED6A2368 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */,
-				364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */,
-				CC27DBE6192833918C1A0DCC3CAA7A64 /* Pod */,
-				44657CA279595E85BC723B0963C0EB22 /* Resources */,
-				E1C559289199013B129A5A3C08E8F21B /* Support Files */,
+				9BA74BB12EAD9E163B4954E16240579C /* GLNetwork-dummy.m */,
+				379EFC441661DD10D8E14EEDF75D39ED /* GLNetwork-prefix.pch */,
+				5B0B969156F1B799B73C2577EC9EEEFC /* GLNetwork.debug.xcconfig */,
+				561E9E2B0E9D739B5A5518A44D145A32 /* GLNetwork.release.xcconfig */,
+				43F4D635E1692E0E0761C9DA8FE1C66E /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */,
 			);
-			name = GLNetwork;
-			path = ../../GLNetwork;
+			name = "Support Files";
+			path = "../Target Support Files/GLNetwork";
 			sourceTree = "<group>";
 		};
 		9A24AAC4213F2D7CCB1E102298D5C034 /* Products */ = {
@@ -178,28 +175,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC1D468D54DB4DD296876EC4161047B9 /* Development Pods */ = {
+		A951B727E3DEDE670D3D0A281B6625FB /* GLNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				65BC1453C130D4438141670C8F3784BF /* GLNetwork */,
+				47E41C4648ABEFA97488CD14B89F601D /* GLNetwork.h */,
+				B60BFD35FCA0C860C484F958A060A23A /* GLNetwork.m */,
+				976A1131564E8C586A616DA0ED6A2368 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CC27DBE6192833918C1A0DCC3CAA7A64 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9B8F7E6741AF98B6C0E00E566EE2BE63 /* GLNetwork.podspec */,
-			);
-			name = Pod;
+			name = GLNetwork;
+			path = GLNetwork;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AC1D468D54DB4DD296876EC4161047B9 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4D2BC3EA3F207D56281F999A7569E555 /* Pods */,
 				9A24AAC4213F2D7CCB1E102298D5C034 /* Products */,
 				1841844C5A5A2144A8EA9E7FB268EF2C /* Targets Support Files */,
 			);
@@ -224,19 +216,6 @@
 			);
 			name = "Pods-Example";
 			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
-		E1C559289199013B129A5A3C08E8F21B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */,
-				9F46FB1D2050C5AD987D8410CA89E9C2 /* GLNetwork-prefix.pch */,
-				1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */,
-				CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */,
-				BAA2A53403A13986424BF9AF87C0FADC /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/GLNetwork";
 			sourceTree = "<group>";
 		};
 		F948839B7B3A27CA5F56D8C5FAF655BA /* Pods-ExampleTests */ = {
@@ -273,7 +252,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A550E22B81C2C74D0A611D59FCA31BD /* GLNetwork.h in Headers */,
+				26AF9A9079B8C5D8D926B95555E63EA3 /* GLNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ED8D3E74D692ED4F9EC9BDC202344DEE /* PBXTargetDependency */,
+				7D3E27C9D26377DBD618490890F1D6A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -316,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B643FDD468677A3D16AE5DEDF36227D /* PBXTargetDependency */,
+				34E4ABCBDE786B0498246EC1E772C72C /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
@@ -334,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7044C538B41FD5A97FAE594A161D882B /* PBXTargetDependency */,
+				EDCB6296BE2CBF8B024567308E99A2BC /* PBXTargetDependency */,
 			);
 			name = GLNetwork;
 			productName = GLNetwork;
@@ -343,11 +322,11 @@
 		};
 		944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A439FB13F24CDC2BF88005CD0B60EC3 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */;
+			buildConfigurationList = 8ACBAC9D6D1230473110601F654CBBE7 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */;
 			buildPhases = (
-				611A8551B49135461B81B674D307697B /* Sources */,
-				186EB5B999F50FF211A72424C9979414 /* Frameworks */,
-				70E666D26CDF7506BBA90A2BEAE54BAB /* Resources */,
+				B9234DFC2BA76ADE7D180754E65FB2B1 /* Sources */,
+				0F47C154C3D8555D514D4DAF3B98C517 /* Frameworks */,
+				F353187D0C784191CF582E1FE57CD3A3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -369,7 +348,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F694B58824158C152DC11FA150A5E2BA /* PBXTargetDependency */,
+				6C94AB05643743BB82C881A8B3F46F2C /* PBXTargetDependency */,
 			);
 			name = "Pods-Example-ExampleUITests";
 			productName = "Pods-Example-ExampleUITests";
@@ -408,11 +387,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		70E666D26CDF7506BBA90A2BEAE54BAB /* Resources */ = {
+		F353187D0C784191CF582E1FE57CD3A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856A5A5CD1EFE25D2D2999F15C842D6D /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBA9D45E8E20999C030C40E6FEF9329C /* GLNetwork.m in Sources */,
+				C596F5160B9D137B461ABE4DA663D9C8 /* GLNetwork.m in Sources */,
 				BAA78D68F6F0DA1408636103F5021819 /* GLNetwork-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +422,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		611A8551B49135461B81B674D307697B /* Sources */ = {
+		B9234DFC2BA76ADE7D180754E65FB2B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,29 +440,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7044C538B41FD5A97FAE594A161D882B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GLNetwork-GLNetwork";
-			target = 944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */;
-			targetProxy = 398DA5414DF9765816AFDE2F283D199A /* PBXContainerItemProxy */;
-		};
-		8B643FDD468677A3D16AE5DEDF36227D /* PBXTargetDependency */ = {
+		34E4ABCBDE786B0498246EC1E772C72C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Example";
 			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
-			targetProxy = 47780135021ED2684959FD31A4B6B3B8 /* PBXContainerItemProxy */;
+			targetProxy = 6182C38D1789FC363AD85C552052B30D /* PBXContainerItemProxy */;
 		};
-		ED8D3E74D692ED4F9EC9BDC202344DEE /* PBXTargetDependency */ = {
+		6C94AB05643743BB82C881A8B3F46F2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GLNetwork;
 			target = 5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */;
-			targetProxy = C22985028C48EE43B62184BCCADB83AA /* PBXContainerItemProxy */;
+			targetProxy = 798D4DD81D0BBDFA4B2A11929F3802E2 /* PBXContainerItemProxy */;
 		};
-		F694B58824158C152DC11FA150A5E2BA /* PBXTargetDependency */ = {
+		7D3E27C9D26377DBD618490890F1D6A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GLNetwork;
 			target = 5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */;
-			targetProxy = D4FBA4ED82015F5C49A1E0DCD39D9592 /* PBXContainerItemProxy */;
+			targetProxy = 6FD76C8C8D69F0D101D1ED66677C5D24 /* PBXContainerItemProxy */;
+		};
+		EDCB6296BE2CBF8B024567308E99A2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GLNetwork-GLNetwork";
+			target = 944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */;
+			targetProxy = 9407259925538BFE35868234070959F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -511,7 +489,7 @@
 		};
 		1C5CD7AB64AF81CEA260CCFDD2A6E4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */;
+			baseConfigurationReference = 5B0B969156F1B799B73C2577EC9EEEFC /* GLNetwork.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,38 +506,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		21E98766F36D6CA294DCDFDE4917BC6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
-				IBSC_MODULE = GLNetwork;
-				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = GLNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8A5F294504819B5C424933BF3C3AE53E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
-				IBSC_MODULE = GLNetwork;
-				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = GLNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -583,6 +529,22 @@
 			};
 			name = Debug;
 		};
+		9EC56632372F612AA572F665AFC323D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561E9E2B0E9D739B5A5518A44D145A32 /* GLNetwork.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
+				IBSC_MODULE = GLNetwork;
+				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GLNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		B43D9D859A1BAB4BDF80D0242B0D5E14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 271E87021CE9DA25FC2E2071A5E994C5 /* Pods-Example.release.xcconfig */;
@@ -603,6 +565,22 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		B912ECD1141CAED3864DFA9B86288384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0B969156F1B799B73C2577EC9EEEFC /* GLNetwork.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
+				IBSC_MODULE = GLNetwork;
+				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GLNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -774,7 +752,7 @@
 		};
 		F5031C4E64296DE679A6473D464A7ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */;
+			baseConfigurationReference = 561E9E2B0E9D739B5A5518A44D145A32 /* GLNetwork.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -845,20 +823,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A439FB13F24CDC2BF88005CD0B60EC3 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A5F294504819B5C424933BF3C3AE53E /* Debug */,
-				21E98766F36D6CA294DCDFDE4917BC6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6EE0C91E735B8C53B9FC190E151EFB8A /* Build configuration list for PBXNativeTarget "GLNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C5CD7AB64AF81CEA260CCFDD2A6E4E8 /* Debug */,
 				F5031C4E64296DE679A6473D464A7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACBAC9D6D1230473110601F654CBBE7 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B912ECD1141CAED3864DFA9B86288384 /* Debug */,
+				9EC56632372F612AA572F665AFC323D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

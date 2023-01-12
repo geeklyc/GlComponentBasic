@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLNetwork'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '网络'
 
 # This description is used to generate tags and improve search results.
@@ -29,11 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'GLNetwork/Classes/**/*'
+  s.source_files = 'GLNetwork/Classes/**/*', 'Packages/GLNetwork/GLNetwork/Classes/**/*'
+  s.public_header_files = 'GLNetwork/Classes/**/*.h', 'Packages/GLNetwork/GLNetwork/Classes/**/*.h'
   
-  # s.resource_bundles = {
-  #   'GlComponentBasic' => ['GlComponentBasic/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'GLNetwork' => ['GLNetwork/Assets/*.jpeg', 'Packages/GLNetwork/GLNetwork/Assets/*.jpeg']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
