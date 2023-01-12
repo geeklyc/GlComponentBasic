@@ -6,73 +6,90 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = E45AFADD278817C92A3DE32EFD072F5E /* Build configuration list for PBXAggregateTarget "GLNetwork" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = GLNetwork;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		2DED30222DE84B88B7FFB8F585A2F18A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AFA4BE157AD692F95BA00A87E13107 /* Pods-Example-dummy.m */; };
-		5B526452737994E40988145DB99823BD /* Pods-Example-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A245C8486493843002349C7CE18EC82F /* Pods-Example-ExampleUITests-dummy.m */; };
-		CC3F5F9FDE572B0FE65FBAC26EE6882B /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734C4778F7BDDB89DE59FBA6597A8860 /* Pods-ExampleTests-dummy.m */; };
+		2DED30222DE84B88B7FFB8F585A2F18A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FAD8E1C196E03C026D0F5B1D495C5F /* Pods-Example-dummy.m */; };
+		5B526452737994E40988145DB99823BD /* Pods-Example-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486B0A23AB884CE15678866A2A47A56 /* Pods-Example-ExampleUITests-dummy.m */; };
+		856A5A5CD1EFE25D2D2999F15C842D6D /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */; };
+		9A550E22B81C2C74D0A611D59FCA31BD /* GLNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAA78D68F6F0DA1408636103F5021819 /* GLNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */; };
+		BBA9D45E8E20999C030C40E6FEF9329C /* GLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */; };
+		CC3F5F9FDE572B0FE65FBAC26EE6882B /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAC262C709DA2F790EC9D1D5963E5A2 /* Pods-ExampleTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B816D912D5D16651D497F032E048D70 /* PBXContainerItemProxy */ = {
+		398DA5414DF9765816AFDE2F283D199A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
-			remoteInfo = GLNetwork;
+			remoteGlobalIDString = 944CE2D0E3B720C751A3926B36E9D998;
+			remoteInfo = "GLNetwork-GLNetwork";
 		};
-		4A4114B96D957D296F93D7974E6A5DE3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
-			remoteInfo = GLNetwork;
-		};
-		4E59C062A86FB04709E240A6701CABDF /* PBXContainerItemProxy */ = {
+		47780135021ED2684959FD31A4B6B3B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
 			remoteInfo = "Pods-Example";
 		};
+		C22985028C48EE43B62184BCCADB83AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
+			remoteInfo = GLNetwork;
+		};
+		D4FBA4ED82015F5C49A1E0DCD39D9592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD6F1F16B9734331D5E68F8DB4547B9;
+			remoteInfo = GLNetwork;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB2757A35F1266DC1BEF5FD1F3D9884 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		169782F5CE25CD402DC7487EB7698D69 /* Pods-Example-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07FAB73EFA5F1A08E6EF1E45520A6DDB /* Pods-Example-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08309553DB8A03B0D071C6A19AC6326D /* libGLNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLNetwork.a; path = libGLNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0A4167A88FD2DF5F14417B25F2EB69 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2697526D536E63A17BE742492FD6F7DB /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		62A2912F01A0D31D48483DA91F16B9BB /* Pods-Example-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		271E87021CE9DA25FC2E2071A5E994C5 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		3486B0A23AB884CE15678866A2A47A56 /* Pods-Example-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GLNetwork.m; path = GLNetwork/Classes/GLNetwork.m; sourceTree = "<group>"; };
+		43BBA3594545F64AF66CD80CF59F8DCD /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FAC262C709DA2F790EC9D1D5963E5A2 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		5EC7BFD185FAAA85EC10F17D069F8C7C /* Pods-Example-ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-ExampleUITests-resources.sh"; sourceTree = "<group>"; };
 		630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleTests.a"; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		734C4778F7BDDB89DE59FBA6597A8860 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
-		7AEAE10A0AAACFFBB09D60619CDF866E /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C42A42BEF09639FA90848654C6270C9 /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; name = 2.jpeg; path = GLNetwork/Assets/2.jpeg; sourceTree = "<group>"; };
+		7DC519AFB66572D1227752142FEAD43C /* Pods-Example-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GLNetwork.h; path = GLNetwork/Classes/GLNetwork.h; sourceTree = "<group>"; };
+		8B624F8232B6159CD2ED40FE46564A22 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4701045839BCD96EE834456481F821 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90348FB108692BD4FA760B59DD0AE9DF /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90B3B15832E6B18D5FD3E9284217DFEC /* Pods-Example-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9374B3D33B69078E62BEF784ADFDD674 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		9B8F7E6741AF98B6C0E00E566EE2BE63 /* GLNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A245C8486493843002349C7CE18EC82F /* Pods-Example-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		B32D7BE474E1E7B426256F372230183B /* Pods-Example-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAFB9116DE2BEF636CACCBBBFF9113A0 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		C1DF6A14F10F4D178E3A8385D00D149E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C6EAACF4B86A042B8BD5884511D3C9AE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		E62537347B010AD9B7334B38DC42307F /* Pods-Example-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F46FB1D2050C5AD987D8410CA89E9C2 /* GLNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLNetwork-prefix.pch"; sourceTree = "<group>"; };
+		AAF60E07E3C4110F0558753DE446BA7F /* Pods-Example-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAA2A53403A13986424BF9AF87C0FADC /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GLNetwork-GLNetwork-Info.plist"; sourceTree = "<group>"; };
+		C4FAD8E1C196E03C026D0F5B1D495C5F /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		C792D5C1002166C85E4D49F2D051347C /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLNetwork-dummy.m"; sourceTree = "<group>"; };
+		CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.release.xcconfig; sourceTree = "<group>"; };
+		D2D130E75C52519A0996444FDE26C0BD /* GLNetwork.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GLNetwork.bundle; path = "GLNetwork-GLNetwork.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D602AE088C77FA17EBDB61C571D61CF4 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		E8E5A2DDEE01CA7716145CA1B033B7A3 /* libPods-Example-ExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example-ExampleUITests.a"; path = "libPods-Example-ExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF1F1D08397CC755E45CF506504DAE8 /* GLNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.debug.xcconfig; sourceTree = "<group>"; };
-		F233ED5BEEFCCBA75D6E18A6316A4A74 /* GLNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLNetwork.release.xcconfig; sourceTree = "<group>"; };
-		F9AFA4BE157AD692F95BA00A87E13107 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		FC4D75A21E5714F3E43DD8F18296E241 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		186EB5B999F50FF211A72424C9979414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B81042D8276D41FAC5C5A990AF0F303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +98,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5ABA648C3A19FAA235632568AC70BF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AB26E74B26BFA35F32D4F227F0B1BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,43 +121,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A1E23BCDA4849508211244F79D7FD16 /* Support Files */ = {
+		1841844C5A5A2144A8EA9E7FB268EF2C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EBF1F1D08397CC755E45CF506504DAE8 /* GLNetwork.debug.xcconfig */,
-				F233ED5BEEFCCBA75D6E18A6316A4A74 /* GLNetwork.release.xcconfig */,
+				D925A1495F268386C2F8BAE41F9DBEDC /* Pods-Example */,
+				5A8A1E3F3C49EE63DC0B6BFD59283D44 /* Pods-Example-ExampleUITests */,
+				F948839B7B3A27CA5F56D8C5FAF655BA /* Pods-ExampleTests */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GLNetwork";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C66C042292E19443F6F5B06D82CE18D7 /* Pods-Example */ = {
+		44657CA279595E85BC723B0963C0EB22 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7AEAE10A0AAACFFBB09D60619CDF866E /* Pods-Example-acknowledgements.markdown */,
-				0BB2757A35F1266DC1BEF5FD1F3D9884 /* Pods-Example-acknowledgements.plist */,
-				F9AFA4BE157AD692F95BA00A87E13107 /* Pods-Example-dummy.m */,
-				C1DF6A14F10F4D178E3A8385D00D149E /* Pods-Example.debug.xcconfig */,
-				C6EAACF4B86A042B8BD5884511D3C9AE /* Pods-Example.release.xcconfig */,
+				74C6E4D20A6271365B527010D6530E34 /* 2.jpeg */,
 			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		5A8A1E3F3C49EE63DC0B6BFD59283D44 /* Pods-Example-ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				FE46AD74733B3C2F440C7A838B48FB02 /* Pods */,
-				D06A60D671E1D1F996C8A5D65E7506FC /* Products */,
-				DBC172E271C7EC703EDB031EC0F60059 /* Targets Support Files */,
+				7DC519AFB66572D1227752142FEAD43C /* Pods-Example-ExampleUITests-acknowledgements.markdown */,
+				AAF60E07E3C4110F0558753DE446BA7F /* Pods-Example-ExampleUITests-acknowledgements.plist */,
+				3486B0A23AB884CE15678866A2A47A56 /* Pods-Example-ExampleUITests-dummy.m */,
+				5EC7BFD185FAAA85EC10F17D069F8C7C /* Pods-Example-ExampleUITests-resources.sh */,
+				07FAB73EFA5F1A08E6EF1E45520A6DDB /* Pods-Example-ExampleUITests.debug.xcconfig */,
+				90B3B15832E6B18D5FD3E9284217DFEC /* Pods-Example-ExampleUITests.release.xcconfig */,
 			);
+			name = "Pods-Example-ExampleUITests";
+			path = "Target Support Files/Pods-Example-ExampleUITests";
 			sourceTree = "<group>";
 		};
-		D06A60D671E1D1F996C8A5D65E7506FC /* Products */ = {
+		65BC1453C130D4438141670C8F3784BF /* GLNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				8A68D20F4090967A5249398F29C65886 /* GLNetwork.h */,
+				364180D7E6048F8F617E302635CDCE2E /* GLNetwork.m */,
+				CC27DBE6192833918C1A0DCC3CAA7A64 /* Pod */,
+				44657CA279595E85BC723B0963C0EB22 /* Resources */,
+				E1C559289199013B129A5A3C08E8F21B /* Support Files */,
+			);
+			name = GLNetwork;
+			path = ../../GLNetwork;
+			sourceTree = "<group>";
+		};
+		9A24AAC4213F2D7CCB1E102298D5C034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D130E75C52519A0996444FDE26C0BD /* GLNetwork.bundle */,
+				08309553DB8A03B0D071C6A19AC6326D /* libGLNetwork.a */,
 				1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */,
 				E8E5A2DDEE01CA7716145CA1B033B7A3 /* libPods-Example-ExampleUITests.a */,
 				630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */,
@@ -141,17 +178,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D807F4532ED86E1B17E1E3959EEB53D7 /* Pods-ExampleTests */ = {
+		AC1D468D54DB4DD296876EC4161047B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC4D75A21E5714F3E43DD8F18296E241 /* Pods-ExampleTests-acknowledgements.markdown */,
-				8C42A42BEF09639FA90848654C6270C9 /* Pods-ExampleTests-acknowledgements.plist */,
-				734C4778F7BDDB89DE59FBA6597A8860 /* Pods-ExampleTests-dummy.m */,
-				2697526D536E63A17BE742492FD6F7DB /* Pods-ExampleTests.debug.xcconfig */,
-				BAFB9116DE2BEF636CACCBBBFF9113A0 /* Pods-ExampleTests.release.xcconfig */,
+				65BC1453C130D4438141670C8F3784BF /* GLNetwork */,
 			);
-			name = "Pods-ExampleTests";
-			path = "Target Support Files/Pods-ExampleTests";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CC27DBE6192833918C1A0DCC3CAA7A64 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F7E6741AF98B6C0E00E566EE2BE63 /* GLNetwork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AC1D468D54DB4DD296876EC4161047B9 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9A24AAC4213F2D7CCB1E102298D5C034 /* Products */,
+				1841844C5A5A2144A8EA9E7FB268EF2C /* Targets Support Files */,
+			);
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -161,44 +212,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBC172E271C7EC703EDB031EC0F60059 /* Targets Support Files */ = {
+		D925A1495F268386C2F8BAE41F9DBEDC /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				C66C042292E19443F6F5B06D82CE18D7 /* Pods-Example */,
-				EFBC91DA628CDB01790F40C6899E32A0 /* Pods-Example-ExampleUITests */,
-				D807F4532ED86E1B17E1E3959EEB53D7 /* Pods-ExampleTests */,
+				0B0A4167A88FD2DF5F14417B25F2EB69 /* Pods-Example-acknowledgements.markdown */,
+				90348FB108692BD4FA760B59DD0AE9DF /* Pods-Example-acknowledgements.plist */,
+				C4FAD8E1C196E03C026D0F5B1D495C5F /* Pods-Example-dummy.m */,
+				9374B3D33B69078E62BEF784ADFDD674 /* Pods-Example-resources.sh */,
+				8B624F8232B6159CD2ED40FE46564A22 /* Pods-Example.debug.xcconfig */,
+				271E87021CE9DA25FC2E2071A5E994C5 /* Pods-Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		E418B3238B43CC838E123CAC8F9D7C21 /* GLNetwork */ = {
+		E1C559289199013B129A5A3C08E8F21B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A1E23BCDA4849508211244F79D7FD16 /* Support Files */,
+				C9938BEF82BEBA7F44334D8AA3864D9B /* GLNetwork-dummy.m */,
+				9F46FB1D2050C5AD987D8410CA89E9C2 /* GLNetwork-prefix.pch */,
+				1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */,
+				CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */,
+				BAA2A53403A13986424BF9AF87C0FADC /* ResourceBundle-GLNetwork-GLNetwork-Info.plist */,
 			);
-			name = GLNetwork;
-			path = GLNetwork;
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/GLNetwork";
 			sourceTree = "<group>";
 		};
-		EFBC91DA628CDB01790F40C6899E32A0 /* Pods-Example-ExampleUITests */ = {
+		F948839B7B3A27CA5F56D8C5FAF655BA /* Pods-ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				62A2912F01A0D31D48483DA91F16B9BB /* Pods-Example-ExampleUITests-acknowledgements.markdown */,
-				E62537347B010AD9B7334B38DC42307F /* Pods-Example-ExampleUITests-acknowledgements.plist */,
-				A245C8486493843002349C7CE18EC82F /* Pods-Example-ExampleUITests-dummy.m */,
-				B32D7BE474E1E7B426256F372230183B /* Pods-Example-ExampleUITests.debug.xcconfig */,
-				169782F5CE25CD402DC7487EB7698D69 /* Pods-Example-ExampleUITests.release.xcconfig */,
+				8C4701045839BCD96EE834456481F821 /* Pods-ExampleTests-acknowledgements.markdown */,
+				C792D5C1002166C85E4D49F2D051347C /* Pods-ExampleTests-acknowledgements.plist */,
+				4FAC262C709DA2F790EC9D1D5963E5A2 /* Pods-ExampleTests-dummy.m */,
+				43BBA3594545F64AF66CD80CF59F8DCD /* Pods-ExampleTests.debug.xcconfig */,
+				D602AE088C77FA17EBDB61C571D61CF4 /* Pods-ExampleTests.release.xcconfig */,
 			);
-			name = "Pods-Example-ExampleUITests";
-			path = "Target Support Files/Pods-Example-ExampleUITests";
-			sourceTree = "<group>";
-		};
-		FE46AD74733B3C2F440C7A838B48FB02 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E418B3238B43CC838E123CAC8F9D7C21 /* GLNetwork */,
-			);
-			name = Pods;
+			name = "Pods-ExampleTests";
+			path = "Target Support Files/Pods-ExampleTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +266,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B71B21CEB2BFEF73085C5827EF99EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A550E22B81C2C74D0A611D59FCA31BD /* GLNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +298,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				34E3ED04D3F6A3C4ED6C88946CB6298B /* PBXTargetDependency */,
+				ED8D3E74D692ED4F9EC9BDC202344DEE /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
@@ -257,12 +316,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				4D8002B6A96EDAEACE246B17A8D439A1 /* PBXTargetDependency */,
+				8B643FDD468677A3D16AE5DEDF36227D /* PBXTargetDependency */,
 			);
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
 			productReference = 630CABE8F692FCDBFD1B122A2D0CE388 /* libPods-ExampleTests.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE0C91E735B8C53B9FC190E151EFB8A /* Build configuration list for PBXNativeTarget "GLNetwork" */;
+			buildPhases = (
+				91B71B21CEB2BFEF73085C5827EF99EE /* Headers */,
+				14811A2DF6C90E1CA213389C36C1341A /* Sources */,
+				A2AB26E74B26BFA35F32D4F227F0B1BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7044C538B41FD5A97FAE594A161D882B /* PBXTargetDependency */,
+			);
+			name = GLNetwork;
+			productName = GLNetwork;
+			productReference = 08309553DB8A03B0D071C6A19AC6326D /* libGLNetwork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A439FB13F24CDC2BF88005CD0B60EC3 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */;
+			buildPhases = (
+				611A8551B49135461B81B674D307697B /* Sources */,
+				186EB5B999F50FF211A72424C9979414 /* Frameworks */,
+				70E666D26CDF7506BBA90A2BEAE54BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLNetwork-GLNetwork";
+			productName = "GLNetwork-GLNetwork";
+			productReference = D2D130E75C52519A0996444FDE26C0BD /* GLNetwork.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		B9DFC814891157FDF2E53F5761A99BA6 /* Pods-Example-ExampleUITests */ = {
 			isa = PBXNativeTarget;
@@ -275,7 +369,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D0FF5DD3F021D2E5C85875F537F6657B /* PBXTargetDependency */,
+				F694B58824158C152DC11FA150A5E2BA /* PBXTargetDependency */,
 			);
 			name = "Pods-Example-ExampleUITests";
 			productName = "Pods-Example-ExampleUITests";
@@ -300,17 +394,29 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D06A60D671E1D1F996C8A5D65E7506FC /* Products */;
+			productRefGroup = 9A24AAC4213F2D7CCB1E102298D5C034 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */,
+				944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */,
 				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
 				B9DFC814891157FDF2E53F5761A99BA6 /* Pods-Example-ExampleUITests */,
 				4432A314DF5F14FFF8809E319054F4AF /* Pods-ExampleTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E666D26CDF7506BBA90A2BEAE54BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856A5A5CD1EFE25D2D2999F15C842D6D /* 2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13BFFC72A45A818750CD27D6C445B257 /* Sources */ = {
@@ -321,11 +427,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14811A2DF6C90E1CA213389C36C1341A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA9D45E8E20999C030C40E6FEF9329C /* GLNetwork.m in Sources */,
+				BAA78D68F6F0DA1408636103F5021819 /* GLNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		154E39C4C89927C9C1B21650E908D461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC3F5F9FDE572B0FE65FBAC26EE6882B /* Pods-ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611A8551B49135461B81B674D307697B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,30 +462,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34E3ED04D3F6A3C4ED6C88946CB6298B /* PBXTargetDependency */ = {
+		7044C538B41FD5A97FAE594A161D882B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GLNetwork;
-			target = 5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */;
-			targetProxy = 4A4114B96D957D296F93D7974E6A5DE3 /* PBXContainerItemProxy */;
+			name = "GLNetwork-GLNetwork";
+			target = 944CE2D0E3B720C751A3926B36E9D998 /* GLNetwork-GLNetwork */;
+			targetProxy = 398DA5414DF9765816AFDE2F283D199A /* PBXContainerItemProxy */;
 		};
-		4D8002B6A96EDAEACE246B17A8D439A1 /* PBXTargetDependency */ = {
+		8B643FDD468677A3D16AE5DEDF36227D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Example";
 			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
-			targetProxy = 4E59C062A86FB04709E240A6701CABDF /* PBXContainerItemProxy */;
+			targetProxy = 47780135021ED2684959FD31A4B6B3B8 /* PBXContainerItemProxy */;
 		};
-		D0FF5DD3F021D2E5C85875F537F6657B /* PBXTargetDependency */ = {
+		ED8D3E74D692ED4F9EC9BDC202344DEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GLNetwork;
 			target = 5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */;
-			targetProxy = 1B816D912D5D16651D497F032E048D70 /* PBXContainerItemProxy */;
+			targetProxy = C22985028C48EE43B62184BCCADB83AA /* PBXContainerItemProxy */;
+		};
+		F694B58824158C152DC11FA150A5E2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLNetwork;
+			target = 5AD6F1F16B9734331D5E68F8DB4547B9 /* GLNetwork */;
+			targetProxy = D4FBA4ED82015F5C49A1E0DCD39D9592 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		08A5942550FFE79B26061DAA654D05CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B32D7BE474E1E7B426256F372230183B /* Pods-Example-ExampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 07FAB73EFA5F1A08E6EF1E45520A6DDB /* Pods-Example-ExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -381,42 +509,63 @@
 			};
 			name = Debug;
 		};
-		09671240814E4FC6A455BE55A0C59D2C /* Release */ = {
+		1C5CD7AB64AF81CEA260CCFDD2A6E4E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F233ED5BEEFCCBA75D6E18A6316A4A74 /* GLNetwork.release.xcconfig */;
+			baseConfigurationReference = 1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLNetwork/GLNetwork-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLNetwork;
+				PRODUCT_NAME = GLNetwork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		21E98766F36D6CA294DCDFDE4917BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
+				IBSC_MODULE = GLNetwork;
+				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GLNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		4CC22E87F0834E0FAD7621AF18145323 /* Debug */ = {
+		8A5F294504819B5C424933BF3C3AE53E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF1F1D08397CC755E45CF506504DAE8 /* GLNetwork.debug.xcconfig */;
+			baseConfigurationReference = 1CA8697C03497809E627F9B8657FD5C2 /* GLNetwork.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLNetwork";
+				IBSC_MODULE = GLNetwork;
+				INFOPLIST_FILE = "Target Support Files/GLNetwork/ResourceBundle-GLNetwork-GLNetwork-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				PRODUCT_NAME = GLNetwork;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		91182B7037315F50E23422D353BA90AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2697526D536E63A17BE742492FD6F7DB /* Pods-ExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 43BBA3594545F64AF66CD80CF59F8DCD /* Pods-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,7 +585,7 @@
 		};
 		B43D9D859A1BAB4BDF80D0242B0D5E14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6EAACF4B86A042B8BD5884511D3C9AE /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 271E87021CE9DA25FC2E2071A5E994C5 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -518,7 +667,7 @@
 		};
 		CDCC37FCB1845FFC42E932A5F084594B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAFB9116DE2BEF636CACCBBBFF9113A0 /* Pods-ExampleTests.release.xcconfig */;
+			baseConfigurationReference = D602AE088C77FA17EBDB61C571D61CF4 /* Pods-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,7 +688,7 @@
 		};
 		D9CEA23831B80236AE463887304EB348 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 169782F5CE25CD402DC7487EB7698D69 /* Pods-Example-ExampleUITests.release.xcconfig */;
+			baseConfigurationReference = 90B3B15832E6B18D5FD3E9284217DFEC /* Pods-Example-ExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -623,9 +772,32 @@
 			};
 			name = Debug;
 		};
+		F5031C4E64296DE679A6473D464A7ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8D2BFD1D8E97FC9F118D10103EA95C /* GLNetwork.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GLNetwork/GLNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GLNetwork;
+				PRODUCT_NAME = GLNetwork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FB3DCD86CDE53836445B1BF8147853F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1DF6A14F10F4D178E3A8385D00D149E /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 8B624F8232B6159CD2ED40FE46564A22 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -673,20 +845,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A439FB13F24CDC2BF88005CD0B60EC3 /* Build configuration list for PBXNativeTarget "GLNetwork-GLNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5F294504819B5C424933BF3C3AE53E /* Debug */,
+				21E98766F36D6CA294DCDFDE4917BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE0C91E735B8C53B9FC190E151EFB8A /* Build configuration list for PBXNativeTarget "GLNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5CD7AB64AF81CEA260CCFDD2A6E4E8 /* Debug */,
+				F5031C4E64296DE679A6473D464A7ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDE0A5BAECBFA85414B2624CFE6C13FB /* Build configuration list for PBXNativeTarget "Pods-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91182B7037315F50E23422D353BA90AB /* Debug */,
 				CDCC37FCB1845FFC42E932A5F084594B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E45AFADD278817C92A3DE32EFD072F5E /* Build configuration list for PBXAggregateTarget "GLNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC22E87F0834E0FAD7621AF18145323 /* Debug */,
-				09671240814E4FC6A455BE55A0C59D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

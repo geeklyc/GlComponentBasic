@@ -2,15 +2,15 @@ PODS:
   - GLNetwork (0.1.1)
 
 DEPENDENCIES:
-  - GLNetwork (~> 0.1.1)
+  - GLNetwork (from `./../GLNetwork`)
 
-SPEC REPOS:
-  "git@github.com:geeklyc/GlSpecs.git":
-    - GLNetwork
+EXTERNAL SOURCES:
+  GLNetwork:
+    :path: "./../GLNetwork"
 
 SPEC CHECKSUMS:
-  GLNetwork: eb65304b70439b40bc53e1504d3ff76b2e12cbaa
+  GLNetwork: f95bd894345566b2c489171000401cfcf81309b3
 
-PODFILE CHECKSUM: e26e5dc32335dd226191ce67584f5ddcbd7cddc2
+PODFILE CHECKSUM: b2c7ffb023eb4583b14b1c812f75ef48fda14f90
 
 COCOAPODS: 1.9.3

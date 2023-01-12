@@ -7,15 +7,15 @@ platform :ios, '9.0'
 
 target 'Example' do
   
-#  pod 'GLNetwork', :path => './../GLNetwork'
+  pod 'GLNetwork', :path => './../GLNetwork'
 #  pod 'GLLog', :path => './../GLLog'
 
-  pod 'GLNetwork', '~> 0.1.2'
+#  pod 'GLNetwork', '~> 0.1.1'
 
   target 'ExampleTests' do
     inherit! :search_paths
     # Pods for testing
-  end∂∂
+  end
 
   target 'ExampleUITests' do
     # Pods for testing
