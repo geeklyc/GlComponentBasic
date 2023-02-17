@@ -14,4 +14,3 @@ platform :ios do
     update_tag_fun(base_path, podspec_path, config_plist_path, spec_path);
   end
 end
-  u[]
