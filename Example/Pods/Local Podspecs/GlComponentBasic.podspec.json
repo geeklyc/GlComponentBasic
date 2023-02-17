@@ -1,9 +1,9 @@
 {
   "name": "GlComponentBasic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基础库（UI、工具等）",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lyc/GlComponentBasic",
+  "homepage": "https://github.com/geeklyc/GlComponentBasic",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "lyc": "geeklyc@163.com"
   },
   "source": {
-    "git": "https://github.com/lyc/GlComponentBasic.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:geeklyc/GlComponentBasic.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
