@@ -1,6 +1,6 @@
 {
   "name": "GlComponentBasic",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "基础库（UI、工具等）",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/geeklyc/GlComponentBasic",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:geeklyc/GlComponentBasic.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
