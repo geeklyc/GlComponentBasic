@@ -10,8 +10,11 @@
 
 #import "Masonry.h"
 
-#import "GlCrashAnalyticsDependencyFactory.h"
-#import "GLLeakViewController.h"
+#import "GLAViewController.h"
+
+//#import "GlCrashAnalyticsDependencyFactory.h"
+//#import "GLLeakViewController.h"
+//#import "GLUISourceViewController.h"
 
 @interface GLViewController ()
 
@@ -28,20 +31,31 @@
     [self setupUI];
     [self setupConstraints];
     
-    [GlCrashAnalyticsDependencyFactory createExceptionHandler];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        GLAViewController *vc = [GLAViewController new];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        nav.modalPresentationStyle = UIModalPresentationFullScreen;
+        [self presentViewController:nav animated:YES completion:nil];
+    });
     
-    NSArray *titles = @[ @"数组越界", @"Leak 泄露" ];
-    for (NSInteger i = 0; i < [titles count]; i++) {
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-        button.frame = CGRectMake(10 + (100 + 10) * (i % 3), 30 + (30 + 3) * (i / 5), 100, 30);
-        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [button setTitle:titles[i] forState:UIControlStateNormal];
-        button.backgroundColor = [UIColor lightGrayColor];
-        [button addTarget:self action:@selector(handleBtnClick:) forControlEvents:UIControlEventTouchUpInside];
-        [self.view addSubview:button];
-    }
-    
-    
+//    [GlCrashAnalyticsDependencyFactory createExceptionHandler];
+//
+//    NSArray *titles = @[ @"数组越界", @"Leak 泄露", @"UI响应链" ];
+//    for (NSInteger i = 0; i < [titles count]; i++) {
+//        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+//        button.frame = CGRectMake(10 + (100 + 10) * (i % 3), 30 + (30 + 3) * (i / 5), 100, 30);
+//        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//        [button setTitle:titles[i] forState:UIControlStateNormal];
+//        button.backgroundColor = [UIColor lightGrayColor];
+//        [button addTarget:self action:@selector(handleBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+//        [self.view addSubview:button];
+//    }
+//    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        GLUISourceViewController *vc = [GLUISourceViewController new];
+//        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self presentViewController:vc animated:YES completion:nil];
+//    });
     
 //    self.logScrollView.backgroundColor = [UIColor greenColor];
     
@@ -52,20 +66,28 @@
 // MARK: - event responders
 
 - (void)handleBtnClick:(UIButton *)btn {
-    NSString *title = [btn titleForState:UIControlStateNormal];
-    if ([title isEqualToString:@"数组越界"]) {
-        // 数组越界
-        [self bug1];
-        return;
-    }
+//    NSString *title = [btn titleForState:UIControlStateNormal];
+//    if ([title isEqualToString:@"数组越界"]) {
+//        // 数组越界
+//        [self bug1];
+//        return;
+//    }
+//
+//    if ([title isEqualToString:@"Leak 泄露"]) {
+//        // 数组越界
+//        GLLeakViewController *vc = [GLLeakViewController new];
+//        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self presentViewController:vc animated:YES completion:nil];
+//        return;
+//    }
+//
+//    if ([title isEqualToString:@"UI响应链"]) {
+//        GLUISourceViewController *vc = [GLUISourceViewController new];
+//        vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//        [self presentViewController:vc animated:YES completion:nil];
+//        return;
+//    }
     
-    if ([title isEqualToString:@"Leak 泄露"]) {
-        // 数组越界
-        GLLeakViewController *vc = [GLLeakViewController new];
-        vc.modalPresentationStyle = UIModalPresentationFullScreen;
-        [self presentViewController:vc animated:YES completion:nil];
-        return;
-    }
     
 }
 

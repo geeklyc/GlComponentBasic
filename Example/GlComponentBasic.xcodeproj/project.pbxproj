@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		000797462966BA0D007316E4 /* GLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 000797452966BA0D007316E4 /* GLPerson.m */; };
 		000797492966BCCE007316E4 /* GLLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000797482966BCCE007316E4 /* GLLeakViewController.m */; };
+		000797982989F348007316E4 /* GLUISourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000797972989F348007316E4 /* GLUISourceViewController.m */; };
+		0007979B2989F35D007316E4 /* GLAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007979A2989F35D007316E4 /* GLAView.m */; };
+		0011FDAB2989F4330099F130 /* GLB1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011FDAA2989F4330099F130 /* GLB1View.m */; };
+		0011FDAE2989F4440099F130 /* GLB2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011FDAD2989F4440099F130 /* GLB2View.m */; };
+		0011FDB12989F44D0099F130 /* GLC1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011FDB02989F44D0099F130 /* GLC1View.m */; };
+		0011FDB42989F4560099F130 /* GLC2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011FDB32989F4560099F130 /* GLC2View.m */; };
+		0011FDB72989F45F0099F130 /* GLDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011FDB62989F45F0099F130 /* GLDView.m */; };
 		1D4853345EB6F6E7DD116CA2 /* libPods-GlComponentBasic_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A2E6B23C32019C500D388F /* libPods-GlComponentBasic_Tests.a */; };
 		5AB953E851122F44A8748882 /* libPods-GlComponentBasic_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CE161F82F1BCA3D58B391A /* libPods-GlComponentBasic_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -43,6 +50,20 @@
 		000797452966BA0D007316E4 /* GLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPerson.m; sourceTree = "<group>"; };
 		000797472966BCCE007316E4 /* GLLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLeakViewController.h; sourceTree = "<group>"; };
 		000797482966BCCE007316E4 /* GLLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLeakViewController.m; sourceTree = "<group>"; };
+		000797962989F348007316E4 /* GLUISourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUISourceViewController.h; sourceTree = "<group>"; };
+		000797972989F348007316E4 /* GLUISourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUISourceViewController.m; sourceTree = "<group>"; };
+		000797992989F35D007316E4 /* GLAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAView.h; sourceTree = "<group>"; };
+		0007979A2989F35D007316E4 /* GLAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAView.m; sourceTree = "<group>"; };
+		0011FDA92989F4330099F130 /* GLB1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLB1View.h; sourceTree = "<group>"; };
+		0011FDAA2989F4330099F130 /* GLB1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLB1View.m; sourceTree = "<group>"; };
+		0011FDAC2989F4440099F130 /* GLB2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLB2View.h; sourceTree = "<group>"; };
+		0011FDAD2989F4440099F130 /* GLB2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLB2View.m; sourceTree = "<group>"; };
+		0011FDAF2989F44D0099F130 /* GLC1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLC1View.h; sourceTree = "<group>"; };
+		0011FDB02989F44D0099F130 /* GLC1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLC1View.m; sourceTree = "<group>"; };
+		0011FDB22989F4560099F130 /* GLC2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLC2View.h; sourceTree = "<group>"; };
+		0011FDB32989F4560099F130 /* GLC2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLC2View.m; sourceTree = "<group>"; };
+		0011FDB52989F45F0099F130 /* GLDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLDView.h; sourceTree = "<group>"; };
+		0011FDB62989F45F0099F130 /* GLDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLDView.m; sourceTree = "<group>"; };
 		25A2E6B23C32019C500D388F /* libPods-GlComponentBasic_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlComponentBasic_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36108336A7049E15A69D7350 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C302964BC93B87DE046C1E2 /* Pods-GlComponentBasic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlComponentBasic_Example.debug.xcconfig"; path = "Target Support Files/Pods-GlComponentBasic_Example/Pods-GlComponentBasic_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +122,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000797952989F324007316E4 /* UI Source */ = {
+			isa = PBXGroup;
+			children = (
+				000797962989F348007316E4 /* GLUISourceViewController.h */,
+				000797972989F348007316E4 /* GLUISourceViewController.m */,
+				0011FDA92989F4330099F130 /* GLB1View.h */,
+				0011FDAA2989F4330099F130 /* GLB1View.m */,
+				0011FDAC2989F4440099F130 /* GLB2View.h */,
+				0011FDAD2989F4440099F130 /* GLB2View.m */,
+				0011FDAF2989F44D0099F130 /* GLC1View.h */,
+				0011FDB02989F44D0099F130 /* GLC1View.m */,
+				0011FDB22989F4560099F130 /* GLC2View.h */,
+				0011FDB32989F4560099F130 /* GLC2View.m */,
+				0011FDB52989F45F0099F130 /* GLDView.h */,
+				0011FDB62989F45F0099F130 /* GLDView.m */,
+				000797992989F35D007316E4 /* GLAView.h */,
+				0007979A2989F35D007316E4 /* GLAView.m */,
+			);
+			name = "UI Source";
+			sourceTree = "<group>";
+		};
 		14B100C78C7B013580A72EFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +198,7 @@
 				6003F5A6195388D20070C39A /* GLViewController.m */,
 				000797472966BCCE007316E4 /* GLLeakViewController.h */,
 				000797482966BCCE007316E4 /* GLLeakViewController.m */,
+				000797952989F324007316E4 /* UI Source */,
 				000797442966BA0D007316E4 /* GLPerson.h */,
 				000797452966BA0D007316E4 /* GLPerson.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -217,6 +260,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				09E784D3391DF9F88C31A323 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +301,7 @@
 				ORGANIZATIONNAME = lyc;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = G2H6C5D8BZ;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -307,6 +351,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09E784D3391DF9F88C31A323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GlComponentBasic_Example/Pods-GlComponentBasic_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GlComponentBasic/A.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GlComponentBasic/B.bundle",
+				"${PODS_ROOT}/YKWoodpecker/YKWoodpecker/Images/icon_woodpecker@2x.png",
+				"${PODS_ROOT}/YKWoodpecker/YKWoodpecker/Images/icon_woodpecker@3x.png",
+				"${PODS_ROOT}/YKWoodpecker/YKWoodpecker/Plugins/woodpecker_plugin_list_cn.plist",
+				"${PODS_ROOT}/YKWoodpecker/YKWoodpecker/Plugins/woodpecker_plugin_list_en.plist",
+				"${PODS_ROOT}/YKWoodpecker/YKWoodpecker/Utils/ykwoodpecker_cn.json",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/A.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/B.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_woodpecker@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_woodpecker@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/woodpecker_plugin_list_cn.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/woodpecker_plugin_list_en.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ykwoodpecker_cn.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GlComponentBasic_Example/Pods-GlComponentBasic_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2381E4D8BCFF5FFB617674BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,10 +432,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000797982989F348007316E4 /* GLUISourceViewController.m in Sources */,
+				0007979B2989F35D007316E4 /* GLAView.m in Sources */,
 				6003F59E195388D20070C39A /* GLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GLViewController.m in Sources */,
 				000797492966BCCE007316E4 /* GLLeakViewController.m in Sources */,
+				0011FDB42989F4560099F130 /* GLC2View.m in Sources */,
+				0011FDB72989F45F0099F130 /* GLDView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0011FDAB2989F4330099F130 /* GLB1View.m in Sources */,
+				0011FDB12989F44D0099F130 /* GLC1View.m in Sources */,
+				0011FDAE2989F4440099F130 /* GLB2View.m in Sources */,
 				000797462966BA0D007316E4 /* GLPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,13 +571,17 @@
 			baseConfigurationReference = 4C302964BC93B87DE046C1E2 /* Pods-GlComponentBasic_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G2H6C5D8BZ;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GlComponentBasic/GlComponentBasic-Prefix.pch";
 				INFOPLIST_FILE = "GlComponentBasic/GlComponentBasic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -507,13 +592,17 @@
 			baseConfigurationReference = 8B2585E40000B26849A4B0FD /* Pods-GlComponentBasic_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G2H6C5D8BZ;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GlComponentBasic/GlComponentBasic-Prefix.pch";
 				INFOPLIST_FILE = "GlComponentBasic/GlComponentBasic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

@@ -1,0 +1,17 @@
+base_path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+script_path = "#{base_path}/Example/Pods/GlComponentCLI/GlComponentCLI/Classes/Fastfile"
+
+import script_path
+
+platform :ios do
+  desc "更新 tag"
+  lane :update_tag do
+    base_path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+    component_name = File::basename(base_path);
+    spec_path = "#{Dir.home}/.cocoapods/repos/gl-ios-specs/#{component_name}";
+    podspec_path = "#{base_path}/#{component_name}.podspec";
+    config_plist_path = "#{base_path}/#{component_name}/Assets/config.plist";
+    update_tag_fun(base_path, podspec_path, config_plist_path, spec_path);
+  end
+end
+  u[]

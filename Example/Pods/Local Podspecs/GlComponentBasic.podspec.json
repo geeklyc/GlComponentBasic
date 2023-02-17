@@ -65,6 +65,34 @@
           "~> 3.7.2"
         ]
       }
+    },
+    {
+      "name": "A",
+      "source_files": "GlComponentBasic/Classes/A/**/*",
+      "resource_bundles": {
+        "A": [
+          "GlComponentBasic/Assets/A/*"
+        ]
+      },
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ]
+      }
+    },
+    {
+      "name": "B",
+      "source_files": "GlComponentBasic/Classes/B/**/*",
+      "resource_bundles": {
+        "B": [
+          "GlComponentBasic/Assets/B/*"
+        ]
+      },
+      "dependencies": {
+        "Masonry": [
+          "~> 1.1.0"
+        ]
+      }
     }
   ]
 }

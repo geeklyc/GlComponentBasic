@@ -1,5 +1,6 @@
 # use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:geeklyc/gl-ios-specs.git'
 
 platform :ios, '9.0'
 
@@ -8,14 +9,20 @@ def gl_category
 end
 
 target 'GlComponentBasic_Example' do
-  pod 'GlComponentBasic', :path => '../'
-  pod 'GlComponentBasic/Category', :path => '../'
-  pod 'GlComponentBasic/Mediator', :path => '../'
-  pod 'GlComponentBasic/WebView', :path => '../'
-  pod 'GlComponentBasic/JSBridge', :path => '../'
-  pod 'GlComponentBasic/NativeCall', :path => '../'
-  pod 'GlComponentBasic/CrashAnalytics', :path => '../'
-  pod 'GlComponentBasic/Log', :path => '../'
+#  pod 'GlComponentBasic', :path => '../'
+#  pod 'GlComponentBasic/Category', :path => '../'
+#  pod 'GlComponentBasic/Mediator', :path => '../'
+#  pod 'GlComponentBasic/WebView', :path => '../'
+#  pod 'GlComponentBasic/JSBridge', :path => '../'
+#  pod 'GlComponentBasic/NativeCall', :path => '../'
+#  pod 'GlComponentBasic/CrashAnalytics', :path => '../'
+#  pod 'GlComponentBasic/Log', :path => '../'
+  pod 'GlComponentBasic/A', :path => '../'
+  pod 'GlComponentBasic/B', :path => '../'
+  
+  pod  'YKWoodpecker'
+  
+  pod 'GlComponentCLI', '~> 0.1.3'
   
   target 'GlComponentBasic_Tests' do
     inherit! :search_paths

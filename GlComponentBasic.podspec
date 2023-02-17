@@ -67,6 +67,24 @@ TODO: Add long description of the pod here.
     ss.source_files = 'GlComponentBasic/Classes/Log/**/*'
     ss.dependency 'CocoaLumberjack', '~> 3.7.2'
   end
+  
+  # A
+  s.subspec 'A' do |ss|
+    ss.source_files = 'GlComponentBasic/Classes/A/**/*'
+    ss.resource_bundles = {
+        'A' => [ 'GlComponentBasic/Assets/A/*' ]
+    }
+    ss.dependency 'Masonry', '~> 1.1.0'
+  end
+  
+  # B
+  s.subspec 'B' do |ss|
+    ss.source_files = 'GlComponentBasic/Classes/B/**/*'
+    ss.resource_bundles = {
+        'B' => [ 'GlComponentBasic/Assets/B/*' ]
+    }
+    ss.dependency 'Masonry', '~> 1.1.0'
+  end
 
 #  s.source_files = 'GlComponentBasic/Classes/**/*'
   

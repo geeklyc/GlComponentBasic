@@ -1,1 +1,0 @@
-../../../../../GlComponentBasic/Classes/Mediator/GLMediator+HandyTools.h

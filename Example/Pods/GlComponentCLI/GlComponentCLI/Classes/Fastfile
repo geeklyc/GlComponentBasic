@@ -1,0 +1,112 @@
+
+default_platform(:ios)
+
+platform :ios do
+  # 当前路径：. Pathname::new(File::dirname(__FILE__)).realpath
+  # 项目路径：/Users/lyc/Desktop/D/sources/geeklyc/gl-ios/GlComponentBusinessDeliverable
+  # base_path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+
+  # # 电脑用户目录：/Users/lyc Dir.home
+  # # 索引库路径：包含 GlComponentBusinessDeliverable 的 repo 目录
+  # spec_path = "#{Dir.home}/.cocoapods/repos/gl-ios-specs/GlComponentBusinessDeliverable";
+
+  # # 配置表路径
+  # config_plist_path = "#{base_path}/GlComponentBusinessDeliverable/Assets/config.plist";
+
+  # # .podspec 路径
+  # podspec_path = "#{base_path}/GlComponentBusinessDeliverable.podspec";
+  
+  # 更新 Pod 版本号
+  def update_podspec_fun(base_path, podspec_path, config_plist_path)
+    # 获取 .plist 对应 key 的值
+    branch = get_info_plist_value(path: config_plist_path, key: "branch");
+    # 确认分支是否正确
+    ensure_git_branch(branch: branch);
+    # 拉取代码
+    git_pull();
+    # .podsepc 版本号增加 bump_type: patch - 修复版本，minor - 次版本，major - 主版本
+    version_bump_podspec(path: podspec_path, bump_type: "patch");
+    # 读取 .podsepc 内容
+    spec = read_podspec(path: podspec_path);
+    # 更新 config.plist 中的版本号
+    version = spec["version"];
+    set_info_plist_value(path: config_plist_path, key: "tag", value: version);
+    # 执行 pod install
+    cocoapods(use_bundle_exec: false, podfile: "#{base_path}/Example/Podfile");
+  end
+
+  # 提交变更和创建标签
+  def tag_component_fun(podspec_path, config_plist_path)
+    branch = get_info_plist_value(path: config_plist_path, key: "branch");
+    ensure_git_branch(branch: branch);
+    spec = read_podspec(path: podspec_path);
+    version = spec["version"];
+    # 提交文案
+    commit_message = "tag=#{version}";
+    # 添加
+    git_add(path: [ "./*.*", "./Example", "./fastlane"]);
+    # 提交
+    git_commit(path: [ "./*.*", "./Example", "./fastlane"], message: commit_message);
+    # 确认工作区是否干净
+    ensure_git_status_clean(show_uncommitted_changes: true);
+    # 推送到远程
+    push_to_git_remote();
+    # 提交 tag
+    add_git_tag(tag: version);
+    # 推送 tag
+    push_git_tags();
+  end
+
+  # 复刻 pod repo push
+  def repo_push_fun(podspec_path, spec_path)
+    spec = read_podspec(path: podspec_path);
+    version = spec["version"];
+    commit_message = "tag=#{version}";
+    # Dir.chdir 切换工作目录
+    Dir.chdir(spec_path) do
+      # 1. 索引库拉取最新代码
+      sh("git pull");
+      Dir.chdir("#{spec_path}") do
+        # 2. 新建版本文件夹
+        sh("mkdir #{version}");
+        # 3. 拷贝最新 .podspec 文件到版本文件夹下
+        sh("cp #{podspec_path} #{spec_path}/#{version}");
+      end
+      # 4. 提交代码
+      sh("git add * && git commit -m \"#{commit_message}\" && git push");
+    end
+  end
+
+  # 更新 tag
+  def update_tag_fun(base_path, podspec_path, config_plist_path, spec_path)
+    update_podspec_fun(base_path, podspec_path, config_plist_path);
+    tag_component_fun(podspec_path, config_plist_path);
+    repo_push_fun(podspec_path, spec_path);
+  end
+
+  # 更新 tag
+  # def update_tag_default_fun() {
+  #   base_path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+  #   component_name = File::basename(base_path);
+  #   spec_path = "#{Dir.home}/.cocoapods/repos/gl-ios-specs/#{component_name}";
+  #   podspec_path = "#{base_path}/#{component_name}.podspec";
+  #   config_plist_path = "#{base_path}/#{component_name}/Assets/config.plist";
+  #   update_tag_fun(base_path, podspec_path, config_plist_path, spec_path);
+  # }
+
+  # desc "更新 tag"
+  # lane :update_tag do
+  #   # path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+  #   # UI.message(File::basename(path));
+  #   # update_tag();
+  #   # update_tag_fun(base_path, podspec_path, config_plist_path, spec_path);
+  #   # update_tag_default_fun();
+  #   base_path = Pathname::new(File::dirname(__FILE__)).realpath.parent;
+  #   component_name = File::basename(base_path);
+  #   spec_path = "#{Dir.home}/.cocoapods/repos/gl-ios-specs/#{component_name}";
+  #   podspec_path = "#{base_path}/#{component_name}.podspec";
+  #   config_plist_path = "#{base_path}/#{component_name}/Assets/config.plist";
+  #   update_tag_fun(base_path, podspec_path, config_plist_path, spec_path);
+    
+  # end
+end
