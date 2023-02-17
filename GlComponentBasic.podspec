@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GlComponentBasic'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基础库（UI、工具等）'
 
 # This description is used to generate tags and improve search results.
